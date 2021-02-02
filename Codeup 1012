@@ -1,0 +1,12 @@
+Me
+
+a = input()
+a = float(a)
+print(a)
+
+
+Answer
+
+a = input()
+a = float(a)
+print("%f" % a)
