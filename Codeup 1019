@@ -1,0 +1,45 @@
+Me
+
+year, month, day = int(input()).split('.')
+if int(month) < 10:
+    if int(day) < 10:
+        print(year + '.' + '0' + month + '.' + '0' + day)
+    else:
+        print(year + '.' + '0' + month + '.' + day)
+elif int(month) >= 10:
+    if int(day) < 10:
+        print(year + '.' + month + '.' + '0' + day)
+    else:
+        print(year + '.' + month + '.' + day)
+year = 2021
+month = 12
+day = 3
+print(year,month,day)
+
+
+
+
+
+Answer
+
+a,b,c = input().split('.')
+print('%04d' % int(a), end='.')
+print('%02d' % int(b), end='.')
+print('%02d' % int(c))
+
+
+
+
+
+
+
+# ??????????
+
+# 파이썬은 기본적으로 input을 str으로 받는다!
+
+# 앞에 0 넣고 자릿수만큼 출력하고싶으면 (99 -> 0099 , 2-> 02)
+  '%0원하는자릿수d'%변수 이렇게 해주면 됨 
+
+
+
+출처: https://j-ungry.tistory.com/126 [정구리의 우주정복]
