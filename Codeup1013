@@ -1,0 +1,32 @@
+Me
+
+a = input()
+a = int(a)
+b = input()
+b = int(b)
+print("%d %d" % (a,b))
+
+
+
+
+Answer
+
+a,b = input().split()
+n = int(a)
+m = int(b)
+print(a,b)
+
+m,n 변수 지정해놓고
+왜 a,b를 출력하지?
+
+.split은 뭐지?
+
+
+
+
+Learned
+print("%10.5f" % 5.123456)
+여기서 10은 출력될 값 앞에
+얼마만큼의 공백을 줄 것이냐.
+. 다음의 숫자는 소수점 아래 숫자를
+몇 개나 표시할 것이냐.
