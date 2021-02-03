@@ -1,0 +1,10 @@
+Me
+a = float()
+a = ("%0.2f" % a)
+
+변수는 무조건 input()
+
+
+Answer
+a = float(input())
+print("%.2f" % a)
