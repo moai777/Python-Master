@@ -1,0 +1,16 @@
+Me
+
+a,b = int(input()).split('-')
+print(a+b)
+
+
+
+
+Answer
+
+a,b = input().split('-')
+print(a+b)
+
+
+# int는 붙이나 안 붙이나 상관 없는 거 아닌가?
+기본적으로 str로 받는다며?
