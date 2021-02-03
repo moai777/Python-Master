@@ -6,3 +6,11 @@ print(a,b)
 
 
 Answer
+1) 정석
+a,b = input().split(':')
+print(int(a), int(b), sep=':')
+
+
+2) 블로그 풀이
+hour, minute = input().split(':')
+print(hour + ':' + minute)
