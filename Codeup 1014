@@ -1,0 +1,15 @@
+Me
+
+a,b = input().split()
+a = chr(98)
+b = chr(65)
+print(b,a)
+
+아니 ASCII CODE를 받아오라매???
+
+
+
+Answer
+
+a,b = input().split()
+print(b,a)
