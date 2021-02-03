@@ -1,0 +1,11 @@
+Me
+a = int(input())
+print(a a a)
+
+공백은 ,로 나타내자
+
+
+
+Answer
+a = int(input())
+print(a, a, a)
