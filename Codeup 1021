@@ -1,0 +1,40 @@
+Me
+
+a = apple
+print(a)
+
+
+
+
+
+Answer
+
+a = input()
+print(a)
+
+
+
+
+
+
+Explanation
+
+입력받은 단어를 그대로 출력하면 됩니다.
+파이썬의 input() 함수는 입력을 str형으로 전달하기 때문에 
+입력받은 그대로 print() 함수를 통해 출력하면 됩니다.
+
+출처: https://s0ng.tistory.com/entry/CodeUp-코드업-기초-100제-1021번-풀이-파이썬python 
+[S0NG의 정보보안 블로그]
+
+
+
+
+
+
+
+Question
+
+단어 1개 입력 받아 그대로 출력하라며.
+근데 공백이 왜 나옴..?
+아 저 input() 안에다가
+값을 입력하는건가.
