@@ -9,6 +9,7 @@ print(a - int(a))
 
 
 
+
 <<Answer>>
 
 a = input().split('.')
@@ -21,7 +22,8 @@ print(int(b))
 
 <<Explanation>>
 
-
+The "valueerror: too many values to unpack (expected 2)"
+error occurs when you do not unpack all the items in a list.
 
 
 
