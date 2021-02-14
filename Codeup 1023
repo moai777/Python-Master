@@ -1,0 +1,30 @@
+<<Me>>
+
+a = float(input('5.7'))
+print(int(a))
+print(a - int(a))
+
+모호르겠다~
+
+
+
+
+<<Answer>>
+
+a = input().split('.')
+print(int(a))
+print(int(b))
+
+
+
+
+
+<<Explanation>>
+
+
+
+
+
+
+
+<<p.s>>
