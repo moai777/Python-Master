@@ -12,7 +12,7 @@ print(a - int(a))
 
 <<Answer>>
 
-a = input().split('.')
+a,b = input().split('.')
 print(int(a))
 print(int(b))
 
@@ -26,7 +26,17 @@ The "valueerror: too many values to unpack (expected 2)"
 error occurs when you do not unpack all the items in a list.
 
 
+def getNumbers():
+    return 'one', 'two', 'three'
+one, two = getNumbers()
 
+(x)
+ 
+def getNumbers():
+    return 'one', 'two'
+one, two = getNumbers()
+
+(o)
 
 
 <<p.s>>
